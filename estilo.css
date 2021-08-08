@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+  background: rgb(98, 98, 207);
+  font-family: 'Fjalla One', sans-serif;
+}
+header{
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+  font-family: 'Style Script', cursive;
+}
+section{
+  background: wheat;
+  border-radius: 0.3rem;
+  padding: 3rem;
+  width: 30rem;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+div{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+img{
+  clip-path: circle();
+}
+p {
+  color: #61351b;
+  font-size: 1.5rem;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(68, 67, 67);
+  font-size: 1.2rem;
+  transition: .5s;
+}
+footer a:hover{
+  color: rgb(90, 88, 88);
+}
+
+footer{
+  text-align: center;
+}
